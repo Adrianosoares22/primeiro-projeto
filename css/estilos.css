@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: rgb(190, 187, 187);
+    background-image: linear-gradient(45deg,#CBCCD4, #660000 );
 }
 header{
     display: flex;
@@ -47,7 +47,6 @@ li a:hover{
 }
 .capa-principal{
     margin: 150px auto;
-    border: 2px solid rgb(133, 133, 133);
     width: 100%;
     max-width: 1200px;
     height: 500px;
@@ -71,38 +70,4 @@ li a:hover{
 .principal{
     padding-top: 150px;
     padding-left: 22px;
-}
-.sobre{
-    margin-top: 300px;
-    width: 100%;
-    height: 500px;
-    border: 2px solid rgb(133, 133, 133);
-    border-radius: 10px;
-}
-.sobre-mim{
-    width: 500px;
-    padding-top: 150px;
-    padding-left: 22px;
-}
-.projetando{
-    margin-top: 200px;
-    width: 100%;
-    height: auto;
-    border: 2px solid rgb(133, 133, 133);
-    border-radius: 10px;
-    margin-bottom: 200px;
-}
-.content-cards{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.card{
-    width: 250px;
-    height: auto;
-    border: 1px solid #CBCCD4;
-    margin: 20px;
-    padding: 10px;
 }
