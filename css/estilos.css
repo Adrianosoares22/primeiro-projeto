@@ -87,7 +87,22 @@ li a:hover{
 .projetando{
     margin-top: 200px;
     width: 100%;
-    height: 500px;
+    height: auto;
     border: 2px solid rgb(133, 133, 133);
     border-radius: 10px;
+    margin-bottom: 200px;
+}
+.content-cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 250px;
+    height: auto;
+    border: 1px solid #CBCCD4;
+    margin: 20px;
+    padding: 10px;
 }
